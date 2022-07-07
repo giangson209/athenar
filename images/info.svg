@@ -1,0 +1,24 @@
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_168_94)">
+<circle cx="17" cy="17" r="17" fill="white" fill-opacity="0.3"/>
+<circle cx="17" cy="17" r="17" fill="url(#paint0_linear_168_94)"/>
+<circle cx="17" cy="17" r="16.5" stroke="url(#paint1_linear_168_94)"/>
+</g>
+<path d="M17 21V17M17 13H17.01M27 17C27 22.5228 22.5228 27 17 27C11.4772 27 7 22.5228 7 17C7 11.4772 11.4772 7 17 7C22.5228 7 27 11.4772 27 17Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_b_168_94" x="-14" y="-14" width="62" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="7"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_168_94"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_168_94" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_168_94" x1="17" y1="0" x2="17" y2="34" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.2"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_168_94" x1="-7.16267" y1="-2.44951" x2="3.25593" y2="37.5533" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

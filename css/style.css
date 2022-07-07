@@ -1,0 +1,376 @@
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-ThinItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-BlackItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Black.woff2") format("woff2"), url("../fonts/archivo/Archivo-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Bold.woff2") format("woff2"), url("../fonts/archivo/Archivo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-BoldItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-ExtraBold.woff2") format("woff2"), url("../fonts/archivo/Archivo-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-ExtraLight.woff2") format("woff2"), url("../fonts/archivo/Archivo-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-ExtraLightItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Italic.woff2") format("woff2"), url("../fonts/archivo/Archivo-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Light.woff2") format("woff2"), url("../fonts/archivo/Archivo-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-LightItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Medium.woff2") format("woff2"), url("../fonts/archivo/Archivo-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-MediumItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Regular.woff2") format("woff2"), url("../fonts/archivo/Archivo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-SemiBold.woff2") format("woff2"), url("../fonts/archivo/Archivo-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-SemiBoldItalic.woff2") format("woff2"), url("../fonts/archivo/Archivo-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo-Thin.woff2") format("woff2"), url("../fonts/archivo/Archivo-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  color: #000000;
+  padding: 0 !important;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: 0.3s all;
+  position: relative;
+  font-weight: 400;
+  font-family: "Archivo";
+  background: #fff;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body label,
+body ul,
+body li,
+body .card,
+body a {
+  text-decoration: none !important;
+  transition: 0.3s all;
+  margin-bottom: 0;
+  outline: none !important;
+}
+body a {
+  transition: 0.3s all !important;
+  color: #000000;
+}
+body a:hover {
+  color: #FF8917;
+}
+body ul {
+  padding: 0;
+  margin: 0;
+}
+body input,
+body button {
+  outline: none !important;
+  box-shadow: none;
+  transition: 0.3s all;
+}
+body .slick-slide {
+  height: auto;
+}
+body .slick-slide img {
+  display: inline;
+}
+body .container {
+  width: 100%;
+  max-width: 1200px;
+}
+body .container-fluid {
+  padding: 0 64px;
+}
+body img {
+  max-width: 100%;
+}
+body .slick-slider {
+  margin-bottom: 0;
+}
+
+.btn-menu-home {
+  position: relative;
+}
+.btn-menu-home .sub-menu {
+  background: rgba(0, 0, 0, 0.37);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 270px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: left;
+  padding: 14px 24px;
+  text-transform: uppercase;
+  display: none;
+}
+.btn-menu-home .sub-menu p {
+  margin-bottom: 20px;
+  color: #6D6D6D;
+}
+.btn-menu-home .sub-menu a {
+  color: #fff;
+  font-weight: 300;
+  display: block;
+  padding: 10px 0;
+}
+.btn-menu-home .sub-menu ul {
+  list-style: none;
+}
+.btn-menu-home .sub-menu ul li {
+  border-bottom: 1px solid #fff;
+}
+.btn-menu-home .sub-menu ul li:last-child {
+  border-bottom: 0px solid #fff;
+}
+.btn-menu-home .sub-menu .close-menu {
+  position: absolute;
+  top: 13px;
+  right: 24px;
+}
+.btn-menu-home .sub-menu .close-menu a {
+  padding: 0;
+}
+
+.btn-menu {
+  transition: 0.6s all !important;
+}
+.btn-menu.active {
+  opacity: 0;
+}
+.btn-menu a {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  padding: 14px 24px;
+  border-radius: 30px;
+  line-height: initial;
+}
+.btn-menu a label {
+  margin-right: 10px;
+}
+
+@-webkit-keyframes styles_floating-animate__1aeQ1 {
+  0% {
+    transform: scale3d(1.3, 1.3, 1.3);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale3d(2, 2, 2);
+    opacity: 0;
+  }
+}
+@keyframes styles_floating-animate__1aeQ1 {
+  0% {
+    transform: scale3d(1.3, 1.3, 1.3);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale3d(2, 2, 2);
+    opacity: 0;
+  }
+}
+.box-banner-home {
+  position: relative;
+}
+.box-banner-home .avarta img {
+  height: 100vh;
+  object-fit: cover;
+}
+.box-banner-home .icon-info {
+  position: absolute;
+  top: 6%;
+  right: 39%;
+  z-index: 2;
+}
+.box-banner-home .icon-info a {
+  display: flex;
+}
+.box-banner-home .icon-info:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #E9B464;
+  opacity: 0.5;
+  border-radius: 50px;
+  transform: scale3d(1.3, 1.3, 1.3);
+  -webkit-animation-name: styles_floating-animate__1aeQ1;
+  animation-name: styles_floating-animate__1aeQ1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  pointer-events: none;
+}
+
+.box-header-home {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+.box-header-home .container-fluid {
+  padding: 0 100px;
+}
+
+.box-tab-service {
+  position: absolute;
+  top: 9%;
+  left: 0;
+  width: 100%;
+}
+.box-tab-service ul {
+  list-style: none;
+}
+.box-tab-service .tab-content {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  padding: 24px 36px;
+  font-size: 17px;
+}
+.box-tab-service .tab-content.active {
+  display: block;
+}
+.box-tab-service .tab-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.box-tab-service .tab-srv {
+  max-width: 560px;
+  margin: 0 auto 12px auto;
+}
+.box-tab-service .tab-srv ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 25px 40px;
+  box-shadow: 0px -2px 1px 1px #fff;
+}
+
+.tab-srv-content {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
