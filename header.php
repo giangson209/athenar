@@ -19,26 +19,28 @@
 </head>
 
 <body>
-   <!-- <header>
+   <header>
        <div class="header-top">
            <div class="container-fluid">
-               <div class="row align-items-center">
-                   <div class="col-md-3">
-                       <div class="logo"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
-                   </div>
-                   <div class="col-md-9">
-                       <div class="h-menu text-uppercase">
-                           <ul>
-                               <li><a href="">Trang chủ</a></li>
-                               <li><a href="">Về Athenar</a></li>
-                               <li><a href="">Giải pháp & Báo giá</a></li>
-                               <li><a href="">Case study</a></li>
-                               <li><a href="">Đội ngũ nhân sự</a></li>
-                               <li><a href="">Liên hệ tư vấn</a></li>
-                           </ul>
+               <div class="content-menu">
+                   <div class="row align-items-center">
+                       <div class="col-md-3">
+                           <div class="logo"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
+                       </div>
+                       <div class="col-md-9">
+                           <div class="h-menu text-uppercase">
+                               <ul>
+                                   <li><a href="">Trang chủ</a></li>
+                                   <li><a href="">Về Athenar</a></li>
+                                   <li><a href="">Giải pháp & Báo giá</a></li>
+                                   <li><a href="">Case study</a></li>
+                                   <li><a href="">Đội ngũ nhân sự</a></li>
+                                   <li><a href="">Liên hệ tư vấn</a></li>
+                               </ul>
+                           </div>
                        </div>
                    </div>
                </div>
            </div>
        </div>
-   </header> -->
+   </header>

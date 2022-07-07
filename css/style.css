@@ -139,7 +139,7 @@ body {
   position: relative;
   font-weight: 400;
   font-family: "Archivo";
-  background: #fff;
+  background: #F5F5F5;
 }
 body h1,
 body h2,
@@ -257,6 +257,35 @@ body .slick-slider {
   margin-right: 10px;
 }
 
+.h-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.h-menu ul li {
+  margin-right: 35px;
+}
+.h-menu ul li:last-child {
+  margin-right: 0;
+}
+.h-menu ul li a {
+  color: #fff;
+}
+
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  transition: 0.3s all !important;
+  padding: 40px 0 0 0;
+}
+.header-top .content-menu {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
+}
+
 @-webkit-keyframes styles_floating-animate__1aeQ1 {
   0% {
     transform: scale3d(1.3, 1.3, 1.3);
@@ -328,9 +357,11 @@ body .slick-slider {
 
 .box-tab-service {
   position: absolute;
-  top: 9%;
+  top: 23%;
   left: 0;
   width: 100%;
+  padding-top: 5px;
+  display: none;
 }
 .box-tab-service ul {
   list-style: none;
@@ -367,10 +398,85 @@ body .slick-slider {
   padding: 25px 40px;
   box-shadow: 0px -2px 1px 1px #fff;
 }
+.box-tab-service .tab-srv ul li a {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+.box-tab-service .tab-srv ul li a.active, .box-tab-service .tab-srv ul li a:hover {
+  opacity: 1;
+}
+.box-tab-service .tab-srv ul li a.active {
+  pointer-events: none;
+}
 
 .tab-srv-content {
   max-width: 560px;
   margin: 0 auto;
+}
+
+.box-banner {
+  position: relative;
+}
+
+.box-banner-about {
+  padding: 300px 0 223px 0;
+  position: relative;
+  background: #292139;
+}
+
+.info-caption-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 100px;
+  padding: 25px 40px;
+  box-shadow: 0px -2px 1px 1px rgba(255, 255, 255, 0.8901960784);
+  color: #fff;
+}
+
+.box-package .container-fluid {
+  padding: 0;
+  overflow: hidden;
+}
+.box-package .container-fluid .row {
+  margin: 0 -9px;
+}
+.box-package .container-fluid .row > div {
+  padding: 0 9px;
+}
+
+.item-pack {
+  height: 100%;
+  background: #fff;
+  padding: 63px 100px;
+}
+.item-pack .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.item-pack .top h2 {
+  font-size: 86px;
+  font-weight: 300;
+  flex: 0 0 70%;
+  line-height: initial;
+}
+.item-pack .bott {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-pack .bott .desc {
+  flex: 0 0 75%;
+}
+
+.box-feedback {
+  padding: 145px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -19,7 +19,7 @@ body {
     position: relative;
     font-weight: 400;
     font-family: 'Archivo';
-    background: #fff;
+    background: #F5F5F5;
 
     h1,
     h2,
@@ -153,6 +153,36 @@ body {
     }
 }
 
+.h-menu {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin-right: 35px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.header-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    transition: .3s all !important;
+    padding: 40px 0 0 0;
+    .content-menu {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #fff;
+    }
+}
 
 @-webkit-keyframes styles_floating-animate__1aeQ1 {
     0% {

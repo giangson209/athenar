@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<style>header {display: none;}</style>
 <main>
 	<section class="box-header-home">
 		<div class="container-fluid">
@@ -30,7 +31,7 @@
 		</div>
 	</section>
 	<section class="box-banner-home">
-		<div class="icon-info"><a href=""><img src="images/info.svg" class="img-fluid" alt=""></a></div>
+		<div class="icon-info"><a href="javascript:void(0)"><img src="images/info.svg" class="img-fluid" alt=""></a></div>
 		<div class="avarta"><img src="images/banner-home.jpg" class="img-fluid w-100" alt=""></div>
 
 		<div class="box-tab-service">
