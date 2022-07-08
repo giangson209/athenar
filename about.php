@@ -59,6 +59,74 @@
 				<h2>Khách hàng <br>nói về chúng tôi</h2>
 			</div>
 		</div>
+		<div class="slide-feedback">
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item-slide">
+				<div class="item-feedback">
+					<div class="desc-fb">
+						“Tôi rất ấn tượng với dự án ‘Con đường tôi’ ngay từ khi nhận bản đề xuất từ 5S Media. Từ những mong muốn của nhãn hàng, họ đã tích hợp được những kỹ thuật quảng cáo mới với tư duy sáng tạo - giúp chúng tôi truyền tải trọn vẹn thông điệp ‘Lịch lãm thời trang – Vững vàng bản lĩnh’ đến đối tượng khách hàng mục tiêu của OWEN"
+					</div>
+					<ul>
+						<li><strong>Đoàn Đức Thuận</strong></li>
+						<li>Phó Tổng giám đốc</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 </main>
-<?php include 'footer.php';?>
+<?php include 'footer.php';?> 

@@ -186,7 +186,7 @@ body .container {
   max-width: 1200px;
 }
 body .container-fluid {
-  padding: 0 64px;
+  padding: 0 100px;
 }
 body img {
   max-width: 100%;
@@ -306,6 +306,11 @@ body .slick-slider {
     opacity: 0;
   }
 }
+.title h2 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
 .box-banner-home {
   position: relative;
 }
@@ -465,6 +470,13 @@ body .slick-slider {
   flex: 0 0 70%;
   line-height: initial;
 }
+.item-pack .top .icon {
+  flex: 0 0 130px;
+  text-align: center;
+}
+.item-pack .top .icon img {
+  max-width: 100%;
+}
 .item-pack .bott {
   font-size: 17px;
   display: flex;
@@ -473,6 +485,10 @@ body .slick-slider {
 }
 .item-pack .bott .desc {
   flex: 0 0 75%;
+}
+.item-pack .bott .btn-pack {
+  flex: 0 0 130px;
+  text-align: center;
 }
 
 .box-feedback {

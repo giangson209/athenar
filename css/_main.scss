@@ -1,3 +1,9 @@
+.title {
+	h2 {
+		font-size: 80px;
+    	font-weight: 300;
+	}
+}
 .box-banner-home {
 	position: relative;
 	.avarta {
@@ -158,6 +164,13 @@
 	    	flex: 0 0 70%;
     		line-height: initial;
 	    }
+	    .icon {
+	    	flex: 0 0 130px;
+	    	text-align: center;
+	    	img {
+	    		max-width: 100%;
+	    	}
+	    }
     }
     .bott {
     	font-size: 17px;
@@ -166,6 +179,10 @@
 	    justify-content: space-between;
 	    .desc {
 	    	flex: 0 0 75%;
+	    }
+	    .btn-pack {
+	    	flex: 0 0 130px;
+	    	text-align: center;
 	    }
     }
 }
